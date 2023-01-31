@@ -58,3 +58,81 @@ Perform the + operation
 Construct a new integer object for the result
 """
 
+
+a='hello in single quotes'
+print(a)
+b="hello in double quotes"
+print(b)
+c="""Hi.
+This is a multiline string,
+that is written in many lines."""
+print(c)
+
+"""
+strings (str) in python is surrounded by either single quotes or double quotes.
+Encase multi-line str variables in triple quotes.
+Python does not have a character data  type, it is a string with a length of 1.
+len() function => gives length of a string or list
+"""
+
+a="ABCDEF"
+print(a[1])
+print(len(a))
+
+c=[1, 2, 3, 4]
+print(type(c)) #<class 'list'>
+print(len(c))
+print(c[0])
+
+a=9
+b=10
+print(a<b)
+print(a==b)
+print(a>b)
+
+"""
+Spaces are the preferred indentation method. Tabs should be used solely to 
+remain consistent with code that is already indented with tabs. 
+Python disallows mixing tabs and spaces for indentation.
+"""
+
+if a>b:
+    print("a is greater than b")
+else:
+    print("b is greater than a")
+
+"""
+The bool() function allows you to evaluate any value. It also gives True or False in return
+Almost all values are true:
+(1) str => any string is true except for empty strings
+(2) int, float => any number is true except for 0
+(3) list, tuples, set => any list tuple or set is true, except for the ones that have nothing in them 
+"""
+print(bool("Hello"))
+print(bool(""))   # False
+print(bool(2))
+print(bool(0))    # False
+print(bool(3.4))
+print(bool(0.0))  # False
+print(bool([1, 2, 3]))
+print(bool([0]))
+print(bool([]))   # False
+print(bool({}))   # False
+print(bool(()))   # False
+print(bool(None)) # False
+
+"""
+Set is one of 4 built-in data types in Python used to store collections of data, 
+the other 3 are List, Tuple, and Dictionary, all with different qualities and usage.
+"""
+
+print(type({}))  #<class 'dict'>
+print(type({1})) #<class 'set'>
+print(type(()))  #<class 'tuple'>
+print(type([]))  #<class 'list'>
+
+
+
+
+
+
