@@ -1,0 +1,7 @@
+Notes:
+pylance => language server for python
+
+
+
+Links:
+https://www.futurelearn.com/info/courses/python-in-hpc/0/steps/65121     => python is strongly typed and dynamically typed
