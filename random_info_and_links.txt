@@ -9,5 +9,6 @@ https://www.futurelearn.com/info/courses/python-in-hpc/0/steps/65121     => pyth
 
 
 Videos:
-https://www.youtube.com/watch?v=WEm3EUdicDg&t=653s  => crash course of basics
-(watched till 10 mins)
+https://www.youtube.com/watch?v=WEm3EUdicDg&t=653s  => python basics
+
+https://www.youtube.com/watch?v=JeznW_7DlB0&t=1416s => object orienter programming in python

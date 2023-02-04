@@ -132,7 +132,39 @@ print(type(()))  #<class 'tuple'>
 print(type([]))  #<class 'list'>
 
 
+"""
+Lists are ordered, their values can be changed and can also contain duplicate values
+The elements in the list can be of any data type. Also we can have multiple data types in the same list
 
+Tuples are same as list, but they cannot be changed.
+We can create a tuple with a a single element by giving a comma at the end, otherwise python won't recognise it as a typle
 
+Sets are unordered, unindexed, and do not store duplicate values
 
+Dictionaries store key-value pairs.
+Dictionaries are ordered from python3.7, earlier it was unordered.
+Dictionaries don't allow duplicate keys
+"""
 
+a=[1,2,3] #list
+print(a)
+print(len(a))
+print(a[1])
+
+b=(1,)  #tuple with a single element
+print(b)
+print(type(b))
+c=(1)
+print(c)
+print(type(c))
+
+d={2,1,3,1}  #set
+print(d)  # {1, 2, 3} : sets are unordered and unindexed
+print(type(d))
+print(len(d))  # 3: sets do not store duplicates
+
+e={"apple":1, "banana":3, "mango":4, "mango":5}
+print(e)
+print(len(e))  # dosen't store duplicates
+# print(e[1]) # key not present then error
+print(e["mango"])  # the last value for the same key is stored
