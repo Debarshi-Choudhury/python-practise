@@ -1,0 +1,16 @@
+(1) install virtualenv module using pip3:
+$ pip3 install virtualenv
+
+(2) create the virtual environment: go to the workspace where you want to create the virtual environment and run:
+$ python3 -m virtualenv <virtual env name>
+
+(3) go to <virtual env name>/pyvenv.cfg file and change following property to true:
+include-system-site-packages = true
+
+(4) activate the virtual environment: go to your workspace containing the virtual env folder and run:
+$ source <virtual env name>/bin/activate
+
+(5) now any module which you install using pip3 will only be installed for your current virtual environment, not for the global environment.
+
+(6) to deactivate the virtual environment, run:
+$ deactivate
