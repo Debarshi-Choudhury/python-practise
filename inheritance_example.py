@@ -41,3 +41,7 @@ d.speak()
 f=Fish("fishy", 2)
 f.show()
 
+print(dir(Pet), "\n")
+print(dir(Cat), "\n")
+print(dir(p), "\n")
+print(dir(c), "\n")

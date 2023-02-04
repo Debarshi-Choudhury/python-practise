@@ -4,8 +4,11 @@ pylance => language server for python
 
 
 Links:
+https://www.pythoncheatsheet.org/cheatsheet/basics     => pyhton cheat sheet
+
 https://www.futurelearn.com/info/courses/python-in-hpc/0/steps/65121     => python is strongly typed and dynamically typed
 
+https://towardsdatascience.com/whats-the-meaning-of-single-and-double-underscores-in-python-3d27d57d6bd1    => different usages of _ in python 
 
 
 Videos:
