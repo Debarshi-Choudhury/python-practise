@@ -4,7 +4,7 @@ pylance => language server for python
 
 
 Links:
-https://www.pythoncheatsheet.org/cheatsheet/basics     => pyhton cheat sheet
+https://www.pythoncheatsheet.org/cheatsheet/basics     => python cheat sheet
 
 https://www.futurelearn.com/info/courses/python-in-hpc/0/steps/65121     => python is strongly typed and dynamically typed
 
@@ -15,3 +15,9 @@ Videos:
 https://www.youtube.com/watch?v=WEm3EUdicDg&t=653s  => python basics
 
 https://www.youtube.com/watch?v=JeznW_7DlB0&t=1416s => object orienter programming in python
+
+
+Pyspark:
+https://www.youtube.com/watch?v=_C8kWso4ne4   => freecodecamp Pyspark tutorial
+watched till 36 mins
+
